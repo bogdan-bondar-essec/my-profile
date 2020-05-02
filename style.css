@@ -1,0 +1,111 @@
+
+/* Colors and fonts */
+
+
+body {
+	background-color: rgb(230,230,230);
+	color:  rgb(40,40,40);
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+h1, h2, h3 {
+	font-family: 'Lora', serif;
+	color: #06623b;
+	text-align: center;
+}
+h1	{
+	font-weight: 100;
+	letter-spacing: 3px;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+}
+h2{
+	font-size: 24px;
+	font-weight: bold;
+}
+a {
+	text-decoration: none;
+	color: rgb(80,80,80);
+	color: #1f4068;
+	font-weight: 600;
+	transition: padding 2s;
+	transition: color 0.3s ease;
+}
+
+
+/* Custom design with class */
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+	
+
+.container{
+	width: 900px;
+    margin: 10px auto;
+}
+
+.box_middle{
+	background: white;
+    padding: 30px;
+    margin: 20px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+    border-radius: 5px;
+ 	text-align: center;
+}
+
+.picture_round{
+border-radius: 50%;	
+}
+
+.btn_green{
+background-color: #84a9ac;
+color: #1f4068;
+padding: 15px 20px;
+border-radius: 5px
+}
+
+.btn_green:hover{
+	color: green;
+	text-decoration: none;
+}
+
+.list_inline{
+list-style: none;
+padding-left: 0px;
+}
+
+.list_inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list_inline i {
+	font-size: 25px;
+	color: rgb(200,200,200);
+}
+
+.list_inline i:hover {
+	font-size: 25px;
+	color: black;
+}
+
+#introduction p {
+	margin: 10px auto;
+	margin-bottom: 30px;
+	width: 550px;
+
+}
